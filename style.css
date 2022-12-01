@@ -1,49 +1,101 @@
-h1 {
-    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*hvbvfy*_ga*MTA4NzgwMTI3My4xNjY2NzAzNTI1*_ga_3LRZM6TM9L*MTY2ODg4MzUwNC44NS4wLjE2Njg4ODM1MDQuMC4wLjA.");
-    font-family: Helvetica;
-    font-size: 100px;
-    font-weight: bold;
-    color: khaki;
-    text-align: center;
-    }
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    margin: 0 10%;
+}
 
-.brushes h2{
-    background-color: mediumspringgreen;
+.box {
+    border: 2px solid black;
+    padding: 12px;
+    margin: 12px auto;
+}
+
+.colorBox {
     width: 100%;
-    font-family: Helvetica;
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
+}
+  
+.colorPanel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
 }
 
-h3{
-    font-family: Helvetica;
-    text-align: left;
-    font-weight: bold;
-    color: black;
+.darkRed {
+    background-color: rgb(139 0 0);
+    color: #fff;
+}
+  
+.midnightBlue {
+    background-color: rgb(25 25 112);
+    color:#fff;
+}
+  
+.Black {
+    background-color: rgb(0 0 0);
+    color: #fff;
+}
+  
+.Evergreen {
+    background-color: rgb(38 69 62);
+    color: #fff;
+}
+  
+.lightBlue {
+    background-color: rgb(173 216 230);
+    color:#fff;
+}
+  
+.Mahogany {
+    background-color: rgb(192 64 0);
+    color: #fff;
 }
 
-p{
-    font-family: Helvetica;
+.fontPanel {
+    width:45%;
     display: inline-block;
 }
 
-.blue {
-    font-family: Helvetica;
-    font-weight: bold;
-    color: blue;
+.fontName {
+    font-size: 20px;
+    text-decoration: underline;
 }
-.Frames h2 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 32px;
-    color: white;
-    background-color: lightcoral;
+
+.regular {
+    font-style: normal;
 }
-.Paint h2 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 32px;
-    color: white;
-    background-color: skyblue;
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style:italic;
+}
+
+.Alexandria {
+    font-family: 'Alexandria', serif;
+}
+
+.Oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.textPanel h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Alexandria', sans-serif;
+}
+
+.textPanel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.textPanel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
 }
