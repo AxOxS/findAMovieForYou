@@ -2,11 +2,7 @@
     background-color: black;
     background-image: url("./pictures/sl_0210121_40570_43.jpg");
     background-size: cover;
-}
-
-@media only screen and (max-width: 767px) {
-    * {
-        background-image: url("./pictures/black-2.jpg");
-        background-size: cover;
-    }
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
